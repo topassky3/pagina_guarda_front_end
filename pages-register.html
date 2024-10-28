@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Registro - Plantilla Bootstrap NiceAdmin</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Archivos CSS de Vendors -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Archivo Principal CSS de la Plantilla -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="align-items-center d-flex justify-content-center" style="min-height: 100vh;">
+
+  <main class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex justify-content-center py-4">
+          <a href="index.html" class="logo d-flex align-items-center w-auto">
+            <img src="assets/img/logo.png" alt="">
+            <span class="d-none d-lg-block">Guardia</span>
+          </a>
+        </div><!-- Fin Logo -->
+
+        <div class="card">
+          <div class="card-body">
+            <div class="pt-4 pb-2">
+              <h5 class="card-title text-center pb-0 fs-4">Crea una Cuenta</h5>
+              <p class="text-center small">Ingresa tus datos personales para crear una cuenta</p>
+            </div>
+
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-12">
+                <label for="yourName" class="form-label">Tu Nombre</label>
+                <input type="text" name="name" class="form-control" id="yourName" required>
+                <div class="invalid-feedback">Por favor, introduce tu nombre.</div>
+              </div>
+
+              <div class="col-12">
+                <label for="yourEmail" class="form-label">Tu Email</label>
+                <input type="email" name="email" class="form-control" id="yourEmail" required>
+                <div class="invalid-feedback">Por favor introduce una dirección de email válida.</div>
+              </div>
+
+              <div class="col-12">
+                <label for="yourUsername" class="form-label">Nombre de Usuario</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" name="username" class="form-control" id="yourUsername" required>
+                  <div class="invalid-feedback">Por favor elige un nombre de usuario.</div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="yourPassword" class="form-label">Contraseña</label>
+                <input type="password" name="password" class="form-control" id="yourPassword" required>
+                <div class="invalid-feedback">Por favor introduce tu contraseña.</div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
+                  <label class="form-check-label" for="acceptTerms">Acepto los <a href="#">términos y condiciones</a></label>
+                  <div class="invalid-feedback">Debes aceptar antes de enviar.</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary w-100" type="submit">Crear Cuenta</button>
+              </div>
+              <div class="col-12">
+                <p class="small mb-0">¿Ya tienes cuenta? <a href="pages-login.html">Inicia sesión</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main><!-- Fin #main -->
+
+  <!-- Archivos JS de Vendors -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Archivo JS Principal de la Plantilla -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
